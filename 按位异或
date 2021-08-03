@@ -1,0 +1,15 @@
+int main()
+{
+  int a = 3;
+  int b = 5;
+  //加减法-可能会溢出
+  //a = a + b;
+  //b = a - b;
+  //a = a - b;
+  
+  //异或法
+  a = a^b;
+  b = b^a;
+  a = a^b;
+  return 0;
+}
