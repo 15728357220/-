@@ -11,5 +11,6 @@ int main()
   a = a^b;
   b = b^a;
   a = a^b;
+  printf("after : a=%d b=%d\n", a, b)
   return 0;
 }
